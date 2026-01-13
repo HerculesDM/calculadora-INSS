@@ -45,7 +45,8 @@
                     <div class="col-12 col-lg-7 mt-3 mt-lg-0">
                         <label class="form-label d-inline" for="tabela">Ano:</label>
                         <select id="tabela" class="form-select form-select-lg d-inline w-75">
-                            <option value="2025" selected>2025</option>
+                            <option value="2026" selected>2026</option>
+                            <option value="2025">2025</option>
                             <option value="2023">2023 - maio a dezembro</option>
                             <option value="2023abril">2023 - janeiro a abril</option>
                             <option value="2022">2022</option>
@@ -219,6 +220,10 @@
                         <button class="btn btn-sm btn-primary" id="btn-tab-2025" type="button" data-bs-toggle="collapse"
                             data-bs-target="#tabela2025" aria-expanded="false" aria-controls="collapseExample">Ver tabela INSS 2025</button>
                     </p>
+                    <p class="d-inline">
+                        <button class="btn btn-sm btn-primary" id="btn-tab-2026" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#tabela2026" aria-expanded="false" aria-controls="collapseExample">Ver tabela INSS 2026</button>
+                    </p>
 
                     <p class="d-inline">
                         <button class="btn btn-sm btn-danger" id="btn-como-calcular" type="button"
@@ -375,6 +380,52 @@
                     </table>
                 </div>
                 <!-- fim tabela inss 2025 -->
+
+                <!-- tabela inss 2026 -->
+                <div class="collapse" id="tabela2026">
+                    <div class="text-center text-success fw-semibold mt-4">
+                        <p class="lead">Tabela INSS 2026</p>
+                    </div>
+
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th>Faixa</th>
+                                <th>De</th>
+                                <th>Até</th>
+                                <th>Percentual</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>R$ 0,01</td>
+                                <td>R$ 1.621,00</td>
+                                <td>7,5%</td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>R$ 1.621,01</td>
+                                <td>R$ 2.902,84</td>
+                                <td>9%</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>R$ 2.902,85</td>
+                                <td>R$ 4.354,27</td>
+                                <td>12%</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>R$ 4.354,28</td>
+                                <td>R$ 8.475,55</td>
+                                <td>14%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- fim tabela inss 2026 -->
 
 
                 <!-- tabela inss do ano 2023 -->
